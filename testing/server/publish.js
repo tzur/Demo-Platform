@@ -8,3 +8,6 @@ Meteor.publish('studentById', function(userId){
 Meteor.publish('startupById', function(userId){
     return Startups.find({_id: userId});
 });
+Meteor.publish('startupPositions', function(startupId){
+    return Positions.find({companyId: startupId});
+});

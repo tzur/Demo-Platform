@@ -3,6 +3,7 @@ import {ButtonInput, Button, Input} from 'react-bootstrap';
 import {signup} from '../../api/client/signup.jsx';
 import SignupStudent from '../components/SignupStudent.jsx';
 import SignupStartup from '../components/SignupStartup.jsx';
+import {Meteor} from 'meteor/meteor';
 export default class Signup extends React.Component {
     constructor(props){
         super(props);
@@ -33,11 +34,17 @@ export default class Signup extends React.Component {
                 console.log(err);
             }else{
                 console.log("SDfdsf");
-                if (options.userType == 'Student'){
-                    this.context.router.push('/auth/students/'+ Meteor.userId());
-                }else{
-                    this.context.router.push('/auth/startups/'+ Meteor.userId());
-                }
+                Meteor.loginWithPassword(options.email, options.password, (error)=>{
+                    if (error){
+                        callback(err);
+                    }else{
+                        if (options.userType == 'Student'){
+                            this.context.router.push('/students/'+ Meteor.userId());
+                        }else{
+                            this.context.router.push('/startups/'+ Meteor.userId());
+                        }
+                    }
+                });
             }
         })
     }

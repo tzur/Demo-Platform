@@ -35,12 +35,13 @@ export default class SignupStudent extends React.Component {
     }
 
     handleSignup(e) {
+        e.preventDefault();
         const options = {
             username: this.state.username,
             password: this.state.password,
             email: this.state.email,
             userType: "Student"
-        }
+        };
         this.props.handleSignup(options);
 
 
