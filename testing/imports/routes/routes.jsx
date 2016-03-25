@@ -13,10 +13,6 @@ import UserStore from '../api/client/stores/UserStore';
 // route components
 
 function redirectUser(nextState, replace){
-    console.log("redirect");
-    if (UserStore.loggedIn){
-        console.log("yay");
-    }
     replace({
         pathname: '/auth',
         state: { nextPathname: nextState.location.pathname }

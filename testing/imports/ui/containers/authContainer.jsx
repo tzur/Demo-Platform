@@ -7,7 +7,6 @@ function composerFunction(props, onData){
     const user = Meteor.user();
     console.log("Auth container");
     if (!!user){
-        UserStore.setUser(user._id, user.profile.userType);
         onData(null, {user});
     }
 }

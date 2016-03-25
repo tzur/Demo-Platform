@@ -2,7 +2,7 @@ import React from 'react';
 import {ButtonInput, Button, Input} from 'react-bootstrap';
 import {signup} from '../../api/client/signup.jsx';
 import SignupStudent from '../components/SignupStudent.jsx';
-import SignupStartup from '../components/SignupStartup.jsx'
+import SignupStartup from '../components/SignupStartup.jsx';
 export default class Signup extends React.Component {
     constructor(props){
         super(props);
