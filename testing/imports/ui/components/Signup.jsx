@@ -38,11 +38,7 @@ export default class Signup extends React.Component {
                     if (error){
                         callback(err);
                     }else{
-                        if (options.userType == 'Student'){
-                            this.context.router.push('/students/'+ Meteor.userId());
-                        }else{
-                            this.context.router.push('/startups/'+ Meteor.userId());
-                        }
+                       this.context.router.push('/');
                     }
                 });
             }

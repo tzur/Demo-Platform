@@ -35,6 +35,7 @@ export default class Login extends React.Component {
                this.setState({wrongAuth: true})
             }else{
                 console.log("logged in!");
+                this.context.router.push('/');
             }
         })
     }
@@ -87,5 +88,5 @@ export default class Login extends React.Component {
         )
     }
 }
-
+Login.contextTypes = {router: React.PropTypes.object};
 export default Login;

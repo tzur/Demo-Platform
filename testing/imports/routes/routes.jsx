@@ -10,6 +10,8 @@ import StartupContainer from '../ui/containers/startup/StartupContainer.jsx';
 import StudentContainer from '../ui/containers/StudentContainer.jsx';
 import UserStore from '../api/client/stores/UserStore';
 import StartupPositionContainer from '../ui/containers/startup/StartupPositionContainer.jsx';
+import UserPositionContainer from '../ui/containers/startup/UserPositionContainer.jsx';
+
 import PositionForm from '../ui/components/startup/PositionForm.jsx'
 // route components
 
@@ -26,9 +28,9 @@ export const renderRoutes = () => (
             <Route path="signup" component={Signup}/>
             <Route path="startups/:id" component={StartupContainer}>
                 <Route path="positions" component={StartupPositionContainer}/>
-                <Route path="newPosition" component={PositionForm}/>
             </Route>
-            <Route path="students/:id" component={StudentContainer}/>
+            <Route path="positions" component={UserPositionContainer}/>
+            <Route path="newPosition" component={PositionForm}/>
             <Route path="*"  onEnter={redirectUser}/>
         </Route>
     </Router>

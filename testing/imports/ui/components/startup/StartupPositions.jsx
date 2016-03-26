@@ -5,10 +5,8 @@ export default class StartupPositions extends React.Component{
     constructor(props){
         super(props);
         console.log("start up positions");
-
     }
     render(){
-        console.log("start up positions");
         return(
             <Grid>
                 <Row>

@@ -33,9 +33,9 @@ export default class PositionForm extends React.Component{
     handleSubmit(e){
         e.preventDefault();
         const options = {
-            companyId: this.props.startup._id,
-            companyName: this.props.startup.companyName,
-            email: this.props.startup.email,
+            companyId: this.props.user._id,
+            companyName: this.props.user.companyName,
+            email: this.props.user.email,
             jobTitle: this.state.jobTitle,
             position: this.state.position,
             description: this.state.description
@@ -91,4 +91,4 @@ export default class PositionForm extends React.Component{
         )
     }
 }
-PositionForm.PropTypes= {startup: React.PropTypes.object};
+PositionForm.PropTypes= {user: React.PropTypes.object};
