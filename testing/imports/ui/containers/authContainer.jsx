@@ -2,7 +2,8 @@ import { Meteor } from 'meteor/meteor';
 import React from 'react';
 import {composeWithTracker} from 'react-komposer';
 import App from '../layout/App.jsx';
-import UserStore from '../../api/client/stores/UserStore';
+import {Students} from '../../api/collections/students/Students';
+import {Startups} from '../../api/collections/collectionStartup/collectionStartup';
 function composerFunction(props, onData){
     const user = Meteor.user();
     let handler;
@@ -22,6 +23,7 @@ function composerFunction(props, onData){
 
             }else{
                 startupStudentUser = Startups.findOne({_id: user._id});
+                console.log("sdfdsfds");
             }
             onData(null, {userReady: true, user: startupStudentUser, studentType: studentType})
         }

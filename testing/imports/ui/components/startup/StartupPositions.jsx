@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Col,Row, Button} from 'react-bootstrap';
-import Position from '../startup/Position.jsx';
+import Position from '../positions/Position.jsx';
 export default class StartupPositions extends React.Component{
     constructor(props){
         super(props);

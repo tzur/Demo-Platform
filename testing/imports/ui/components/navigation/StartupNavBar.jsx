@@ -16,15 +16,11 @@ export default class StartupNavBar extends React.Component {
             <Navbar inverse>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#" onClick={this.main.bind(this)}>Tamid</a>
+                        <a href="#" onClick={this.main.bind(this)}>Tamid - Startup</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
-                    <Nav>
-                        <NavItem eventKey={1} href="#" onClick={this.positions.bind(this)}>Your Positions</NavItem>
-                        <NavItem eventKey={2} href="#" onClick={this.newPosition.bind(this)}>New Position</NavItem>
-                    </Nav>
                     <Nav pullRight>
                         <NavItem eventKey={3} href="#" onClick={this.props.logout}>Logout</NavItem>
                     </Nav>
@@ -34,3 +30,7 @@ export default class StartupNavBar extends React.Component {
     }
 };
 StartupNavBar.contextTypes = {router: React.PropTypes.object};
+//<Nav>
+//    <NavItem eventKey={1} href="#" onClick={this.positions.bind(this)}>Your Positions</NavItem>
+//    <NavItem eventKey={2} href="#" onClick={this.newPosition.bind(this)}>New Position</NavItem>
+//</Nav>

@@ -1,18 +1,19 @@
 import React from 'react';
-import PositionForm from '../startup/PositionForm.jsx';
+import PositionForm from '../positions/PositionForm.jsx';
+import StartupPositionsContainer from '../../containers/position/StartupPositionContainer.jsx';
+import FlatButton from 'material-ui/lib/flat-button';
 export default class Startup extends React.Component {
+    constructor(props){
+        super(props);
+    }
 
     render(){
-        let child;
-        if (this.props.children){
-            child = React.cloneElement(this.props.children, {user: this.props.user});
-        }else{
-            child = null;
-        }
         return(
             <div>
                 <h1 className="text-center">Hello {this.props.user.companyName} Startup!!</h1>
-                {child? child : <p className="text-center">Welcome to Tamid interactive pinboard!</p>}
+
+                <PositionForm startup={this.props.user}/>
+                <StartupPositionsContainer startup={this.props.user} />
             </div>
         )
     }

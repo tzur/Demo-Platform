@@ -7,12 +7,12 @@ import Signup from '../ui/components/Signup.jsx';
 import Student from '../ui/components/Student.jsx';
 import Startup from '../ui/components/startup/Startup.jsx';
 import StartupContainer from '../ui/containers/startup/StartupContainer.jsx';
-import StudentContainer from '../ui/containers/StudentContainer.jsx';
+import StudentContainer from '../ui/containers/student/StudentContainer.jsx';
 import UserStore from '../api/client/stores/UserStore';
-import StartupPositionContainer from '../ui/containers/startup/StartupPositionContainer.jsx';
-import UserPositionContainer from '../ui/containers/startup/UserPositionContainer.jsx';
+import StartupPositionContainer from '../ui/containers/position/StartupPositionContainer.jsx';
+import UserPositionContainer from '../ui/containers/position/UserPositionContainer.jsx';
 
-import PositionForm from '../ui/components/startup/PositionForm.jsx'
+import PositionForm from '../ui/components/positions/PositionForm.jsx'
 // route components
 
 function redirectUser(nextState, replace){

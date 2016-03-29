@@ -1,5 +1,5 @@
 import React from 'react';
-import StudentContainer from '../containers/StudentContainer.jsx';
+import StudentContainer from '../containers/student/StudentContainer.jsx';
 import StartupContainer from '../containers/startup/StartupContainer.jsx';
 import StudentNavBar from '../components/navigation/StudentNavBar.jsx';
 import GuestNavBar from '../components/navigation/GuestNavBar.jsx';
@@ -13,7 +13,7 @@ export default class App extends React.Component{
     //        if (this.props.user.profile.userType == "Student"){
     //            this.context.router.push('/students/'+this.props.user._id);
     //        }else{
-    //            this.context.router.push('/startups/'+this.props.user._id);
+    //            this.context.router.push('/collectionStartup/'+this.props.user._id);
     //        }
     //    }
     //}

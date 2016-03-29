@@ -6,7 +6,7 @@ export default class StudentNavBar extends React.Component {
             <Navbar inverse>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#">Tamid</a>
+                        <a href="#">Tamid - Student</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>

@@ -1,7 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 import React from 'react';
 import {composeWithTracker} from 'react-komposer';
-import Student from '../components/Student.jsx';
+import Student from '../../components/Student.jsx';
+import {Students} from '../../../api/collections/students/Students';
 function composerFunction(props, onData){
         let handle;
         let student;

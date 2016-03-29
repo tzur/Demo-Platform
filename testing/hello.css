@@ -1,3 +1,6 @@
 .signupBtn{
     margin: 10px;
 }
+#submitBtn{
+    width:100%;
+}

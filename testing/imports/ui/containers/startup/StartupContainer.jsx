@@ -2,6 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import React from 'react';
 import {composeWithTracker} from 'react-komposer';
 import Startup from '../../components/startup/Startup.jsx';
+import {Startups} from '../../../api/collections/collectionStartup/collectionStartup';
 function composerFunction(props, onData){
     let handle;
     let startup;
