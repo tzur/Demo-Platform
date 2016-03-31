@@ -18,7 +18,7 @@ Meteor.methods({
         }
         return positionId;
     },
-    addStudentToPosition(id){
+    addStudentToPosition(id, applyText){
         try{
             console.log("add student to position method");
             console.log("position id" +  id);
@@ -26,7 +26,8 @@ Meteor.methods({
                 $addToSet: {appliedUsers: {
                     _id: Meteor.userId(),
                     username: Meteor.user().username,
-                    email: Meteor.user().email
+                    email: Meteor.user().email,
+                    applyText: applyText
                 }}
             })
         }catch(err){

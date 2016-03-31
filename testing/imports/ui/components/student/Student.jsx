@@ -6,8 +6,8 @@ export default class Student extends React.Component {
         super(props);
         this.handleApply = this.handleApply.bind(this);
     }
-    handleApply(position){
-        apply(position,(err, result)=>{
+    handleApply(position, applyText){
+        apply(position,applyText,(err, result)=>{
             if (err){
                 console.log(err);
             }else{

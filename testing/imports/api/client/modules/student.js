@@ -1,8 +1,8 @@
 import {Meteor} from 'meteor/meteor';
 import '../../../api/collections/students/methods';
 
-export function apply(position, callback){
-    Meteor.call('addPositionToStudent',position,(err,result)=>{
+export function apply(position,applyText, callback){
+    Meteor.call('addPositionToStudent',position,applyText,(err,result)=>{
         if (err){
             callback(err)
         }else{

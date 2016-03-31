@@ -1,5 +1,5 @@
 import React from 'react';
-import PositionGenericCard from '../positions/PositionGenericCard.jsx';
+import {PositionGenericCard} from '../positions/PositionGenericCard.jsx';
 
 export default class AppliedPositionsPage extends React.Component {
     constructor(props){

@@ -8,21 +8,30 @@ import CardTitle from '../../../../node_modules/material-ui/lib/card/card-title'
 import FlatButton from '../../../../node_modules/material-ui/lib/flat-button';
 import CardText from '../../../../node_modules/material-ui/lib/card/card-text';
 
-export default class PositionGenericCard extends React.Component{
-    constructor(props){
-        super(props);
+export  function PositionGenericCard(props){
+
+    if (props.position === undefined){
+        console.error("No position was given to position generic card ")
     }
-    render(){
-        return(
-            <Col md={10} sm={10}>
-                <Card style={{backgroundColor: '#F9F9FD' , marginTop: '10px'}}>
-                    <CardTitle title={this.props.position.companyName} subtitle={this.props.position.jobTitle} />
-                    <CardText>
-                        {this.props.position.description}
-                    </CardText>
-                </Card>
-            </Col>
-        )
-    }
+
+    return(
+        <Col md={10} sm={10}>
+            <Card style={{backgroundColor: '#F9F9FD' , marginTop: '10px'}}>
+                <CardTitle title={props.position.companyName} subtitle={props.position.jobTitle} />
+                <CardText>
+                    {props.position.description}
+                    {props.appliedStudents?
+                        <div>
+                            <h4>Applied Students: </h4>
+                            {props.appliedStudents()}
+                        </div> : null
+                    }
+                </CardText>
+                <CardActions>
+                    {props.cardActions? props.cardActions() : null}
+                </CardActions>
+
+            </Card>
+        </Col>
+    )
 }
-PositionGenericCard.PropTypes = {position: React.PropTypes.object};

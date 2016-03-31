@@ -12,7 +12,7 @@ Meteor.methods({
         }
         return newId;
     },
-    addPositionToStudent(position){
+    addPositionToStudent(position, applyText){
       console.log("add position to student method");
       try{
           Students.update({_id: Meteor.userId()}, {
@@ -22,7 +22,8 @@ Meteor.methods({
                   email: position.email,
                   jobTitle: position.jobTitle,
                   position: position.position,
-                  description: position.description
+                  description: position.description,
+                  applyText: applyText
               }}
           })
       }catch(err){
