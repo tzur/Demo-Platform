@@ -1,6 +1,6 @@
 import React from 'react';
 import {Row, Col, Button, Input} from 'react-bootstrap';
-import { addPosition } from '../../../api/client/addPosition.jsx';
+import { addPosition } from '../../../api/client/modules/position';
 import FlatButton from '../../../../node_modules/material-ui/lib/flat-button';
 export default class PositionForm extends React.Component{
     constructor(props){

@@ -5,8 +5,11 @@ import FlatButton from 'material-ui/lib/flat-button';
 export default class Startup extends React.Component {
     constructor(props){
         super(props);
+        this.handleApply= this.handleApply.bind(this);
     }
-
+    handleApply(){
+        console.log("You are so funny...how can startup apply to startup?!");
+    }
     render(){
         return(
             <div>

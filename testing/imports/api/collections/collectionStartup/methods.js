@@ -9,7 +9,7 @@ Meteor.methods({
         newId = Startups.insert({_id: user._id, companyName: user.username, email: user.email})
 
     }catch(e){
-        return new Meteor.error("error with adding user type" + e);
+        throw new Meteor.error("error with adding user type" + e);
     }
     return newId;
     }

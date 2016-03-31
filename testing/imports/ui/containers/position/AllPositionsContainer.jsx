@@ -10,8 +10,8 @@ function composerFunction(props, onData){
     let positions;
     handle = Meteor.subscribe('allPositions');
     if (handle.ready()){
-        positions = Positions.find({}).fetch();
-        onData(null, { positions});
+        positions = Positions.find({}, {sort: {createdAt: -1}}).fetch();
+        onData(null, {positions: positions, handleApply: props.handleApply});
     }
 
 

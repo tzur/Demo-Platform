@@ -2,43 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed08cd1-ecbb-45b5-87a7-8a3975cdf165" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/collectionStartup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/server/publications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/positions/Positions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/positions/server/publications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/students/Students.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/students/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/collections/students/server/publications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/startup/server/fixtures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/startup/server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/startup/server/register-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/both/collections/Positions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/both/collections/Startups.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/both/collections/Students.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/both/startupMethods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/AuthUserLogic.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/server/publish.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/both/userMethods.js" afterPath="$PROJECT_DIR$/testing/imports/api/collections/userMethods.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/Position.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/Position.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/PositionForm.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/StudentContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/student/StudentContainer.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/startup/StartupPositionContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/startup/UserPositionContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/server/startup.js" afterPath="$PROJECT_DIR$/testing/server/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/client/modules/position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/client/modules/startup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/client/modules/student.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/api/client/modules/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/StudentPositionCard.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/ui/components/student/AppliedPositionsPage.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/ui/components/student/Student.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/AppliedPositionsContainer.jsx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/addPosition.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/login.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/logout.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/signup.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/stores/UserStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Sample.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Student.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Test.jsx" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/SignupStartup.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/startup/SignupStartup.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/SignupStudent.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/student/SignupStudent.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/Position.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionGenericCard.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/hello.css" afterPath="$PROJECT_DIR$/testing/hello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/client/main.jsx" afterPath="$PROJECT_DIR$/testing/client/main.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js" afterPath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js" afterPath="$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/api/collections/students/methods.js" afterPath="$PROJECT_DIR$/testing/imports/api/collections/students/methods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/routes/routes.jsx" afterPath="$PROJECT_DIR$/testing/imports/routes/routes.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Student.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/Student.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/navigation/StartupNavBar.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/navigation/StartupNavBar.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Login.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/Login.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/StartupPositions.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/components/startup/StartupPositions.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/startup/StartupContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/startup/StartupContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/student/StudentContainer.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/containers/student/StudentContainer.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/imports/ui/layout/App.jsx" afterPath="$PROJECT_DIR$/testing/imports/ui/layout/App.jsx" />
     </list>
     <ignored path="TamidReact222.iws" />
@@ -60,31 +59,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="fixtures.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/startup/server/fixtures.js">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/layout/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register-api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/startup/server/register-api.js">
+      <file leaf-file-name="AppliedPositionsPage.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/student/AppliedPositionsPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="methods.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js">
+      <file leaf-file-name="StartupPositionContainer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPositionContainer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignupStudent.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/student/SignupStudent.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/routes/routes.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentNavBar.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5150502">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllPositionsContainer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppliedPositionsContainer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/AppliedPositionsContainer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -94,67 +153,7 @@
         <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signup.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/api/client/login.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Login.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03760684">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collectionStartup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/collectionStartup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Students.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/students/Students.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Positions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/positions/Positions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -175,47 +174,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/StudentNavBar.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/api/client/logout.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/SignupStudent.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/api/client/signup.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/startup/StartupPositions.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/navigation/GuestNavBar.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/Login.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/routes/routes.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/layout/App.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/navigation/StartupNavBar.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/containers/startup/StartupPositionContainer.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/startup/PositionForm.jsx" />
-        <option value="$PROJECT_DIR$/testing/hello.css" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/containers/student/AllPositionsContainer.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/Student.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/Position.jsx" />
-        <option value="$PROJECT_DIR$/testing/both/collections/Students.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/Positions.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/Startups.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/Students.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/positions/server/publications.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/startups/server/publications.js" />
         <option value="$PROJECT_DIR$/testing/server/publish.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/students/server/publications.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/students/methods.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/userMethods.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/startups/startupMethods.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/startups/methods.js" />
         <option value="$PROJECT_DIR$/testing/imports/startup/server.js" />
         <option value="$PROJECT_DIR$/testing/imports/ui/containers/StudentContainer.jsx" />
         <option value="$PROJECT_DIR$/testing/imports/ui/containers/student/StudentContainer.jsx" />
         <option value="$PROJECT_DIR$/testing/imports/ui/containers/startup/UserPositionContainer.jsx" />
         <option value="$PROJECT_DIR$/testing/imports/ui/containers/startup/StartupContainer.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx" />
-        <option value="$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx" />
         <option value="$PROJECT_DIR$/testing/imports/startup/index.js" />
         <option value="$PROJECT_DIR$/testing/imports/startup/fixtures.js" />
         <option value="$PROJECT_DIR$/testing/imports/startup/register-api.js" />
@@ -226,6 +195,36 @@
         <option value="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/collectionStartup.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/positions/Positions.js" />
         <option value="$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/api/client/modules/startup.js" />
+        <option value="$PROJECT_DIR$/testing/imports/api/client/signup.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/api/client/logout.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/Login.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/layout/App.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/SignupStudent.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/SignupStartup.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/Student.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/Position.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/api/collections/students/methods.js" />
+        <option value="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js" />
+        <option value="$PROJECT_DIR$/testing/imports/api/client/modules/position.js" />
+        <option value="$PROJECT_DIR$/testing/imports/api/client/modules/student.js" />
+        <option value="$PROJECT_DIR$/testing/imports/api/client/modules/user.js" />
+        <option value="$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/AppliedPositionCard.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx" />
+        <option value="$PROJECT_DIR$/testing/client/main.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionGenericCard.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/StudentPositionCard.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/routes/routes.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/student/AppliedPositionsPage.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/containers/position/AppliedPositionsContainer.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx" />
+        <option value="$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx" />
       </list>
     </option>
   </component>
@@ -485,11 +484,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="startup" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="positions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navigation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TamidReact222" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -571,97 +682,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collectionStartup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,17 +703,17 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Login&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/Login.jsx&#10;signup&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/Signup.jsx&#10;authCon&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/containers/authContainer.jsx&#10;Auth&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/containers/authContainer.jsx&#10;Stu&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/navigation/StudentNavBar.jsx&#10;Signup&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/Signup.jsx&#10;Start&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/startup/Startup.jsx&#10;routes&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/routes/routes.jsx&#10;Nav&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/navigation/StartupNavBar.jsx&#10;AuthN&#9;null&#9;null&#10;authNav&#9;null&#9;null&#10;App&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/layout/App.jsx&#10;AuthC&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/containers/authContainer.jsx&#10;PositionForm&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/startup/PositionForm.jsx&#10;po&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/PositionForm.jsx&#10;posi&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/PositionForm.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="App&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/layout/App.jsx&#10;routes&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/routes/routes.jsx&#10;Signup&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/Signup.jsx&#10;posi&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/positions/PositionLayout.jsx&#10;pos&#9;null&#9;null&#10;main&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/client/main.jsx&#10;Position&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/positions/Position.jsx&#10;Student&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/Student.jsx&#10;Startup&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/startup/Startup.jsx&#10;signup&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/SignupStartup.jsx&#10;signupS&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/SignupStudent.jsx&#10;nav&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/navigation/StartupNavBar.jsx&#10;PositionForm&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/positions/PositionForm.jsx&#10;Login&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/Login.jsx&#10;lOGIN&#9;null&#9;null&#10;authCon&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/containers/authContainer.jsx&#10;Auth&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/containers/authContainer.jsx&#10;Stu&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/navigation/StudentNavBar.jsx&#10;Start&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/startup/Startup.jsx&#10;Nav&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/navigation/StartupNavBar.jsx&#10;AuthN&#9;null&#9;null&#10;authNav&#9;null&#9;null&#10;AuthC&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/containers/authContainer.jsx&#10;po&#9;FILE&#9;file://C:/Users/ZurTene/WebstormProjects/TamidReact222/testing/imports/ui/components/PositionForm.jsx" />
     <property name="js.eslint.nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\ui\components\startup" />
+      <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\ui\components\student" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\startup\server" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\ui\containers\position" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\ui\containers\student" />
-      <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\api\collections" />
-      <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\api\collections\startups" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222" />
@@ -797,12 +818,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30405405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2894144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4054054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33709133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -824,7 +845,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -841,42 +862,7 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testing/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Sample.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -890,66 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/SignupStudent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45017794">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/navigation/GuestNavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/signup.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6425993">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/client/main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/routes/routes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4601227">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/navigation/StartupNavBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36068377">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#1062#1069#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/layout/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2854701">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,74 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/startup/StartupPositions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26324788">
-          <caret line="7" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73675215">
-          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5641026">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Student.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/Position.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/node_modules/react/lib/webcomponents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="3993" column="10" selection-start-line="3993" selection-start-column="10" selection-end-line="3993" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/logout.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/addPosition.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1057,22 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/students/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/userMethods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1097,22 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/positions/server/publications.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1121,18 +955,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/startup/server/register-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1153,26 +987,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/startup/server/register-api.js">
+    <entry file="file://$PROJECT_DIR$/testing/node_modules/material-ui/lib/card/card-text.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/students/Students.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="59" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1185,6 +1003,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/startup/StartupPositions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/students/Students.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25496688">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14569536">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/navigation/StartupNavBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+          <folding>
+            <element signature="e#1062#1069#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/collectionStartup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1193,10 +1053,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/modules/startup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/modules/position.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/startup/SignupStartup.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/modules/student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/node_modules/material-ui/src/svg-icons/maps/local-post-office.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16603774">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/client/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1204,23 +1128,135 @@
     <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/api/client/login.jsx">
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/PositionGenericCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/Login.jsx">
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03760684">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.66220737">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/api/collections/students/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/StudentPositionCard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/student/Student.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/student/SignupStudent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/layout/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/student/AppliedPositionsPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/AppliedPositionsContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/routes/routes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5150502">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>

@@ -11,7 +11,7 @@ function composerFunction(props, onData){
         let positions;
         handle = Meteor.subscribe('startupPositions', props.user._id);
         if (handle.ready()){
-            positions = Positions.find({companyId:  props.user._id}).fetch();
+            positions = Positions.find({companyId:  props.user._id}, {sort: {createdAt: -1}}).fetch();
             onData(null, {positions: positions, startup: props.user});
         }
     }

@@ -4,9 +4,9 @@ import StartupContainer from '../containers/startup/StartupContainer.jsx';
 import StudentNavBar from '../components/navigation/StudentNavBar.jsx';
 import GuestNavBar from '../components/navigation/GuestNavBar.jsx';
 import StartupNavBar from '../components/navigation/StartupNavBar.jsx';
-import Student from '../components/Student.jsx';
+import Student from '../components/student/Student.jsx';
 import Startup from '../components/startup/Startup.jsx';
-import {meteorLogout} from '../../api/client/logout.jsx';
+import {meteorLogout} from '../../api/client/modules/user';
 export default class App extends React.Component{
     //componentWillMount(){
     //    if (!!this.props.user && !this.props.children){

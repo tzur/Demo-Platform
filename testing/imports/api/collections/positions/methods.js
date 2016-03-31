@@ -3,6 +3,7 @@ import {Positions} from './Positions';
 Meteor.methods({
     addPosition(position){
         let positionId;
+        console.log("add position method");
         try{
             positionId = Positions.insert({
                 companyId: position.companyId,
@@ -16,5 +17,21 @@ Meteor.methods({
             return e;
         }
         return positionId;
+    },
+    addStudentToPosition(id){
+        try{
+            console.log("add student to position method");
+            console.log("position id" +  id);
+            Positions.update({_id: id}, {
+                $addToSet: {appliedUsers: {
+                    _id: Meteor.userId(),
+                    username: Meteor.user().username,
+                    email: Meteor.user().email
+                }}
+            })
+        }catch(err){
+            throw err;
+        }
+        return true;
     }
 });

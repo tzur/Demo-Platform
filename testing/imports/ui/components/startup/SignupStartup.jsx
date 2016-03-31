@@ -1,20 +1,19 @@
 import React from 'react';
 import {Input} from 'react-bootstrap';
 import {ButtonInput} from 'react-bootstrap';
-import {signup} from '../../api/client/signup.jsx';
-export default class SignupStudent extends React.Component {
+export default class SignupStartup extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             username: '',
             password: '',
             email: '',
-            userType: ''
+            companyName: ''
         };
         this.handleUserName = this.handleUserName.bind(this);
         this.handlePassword = this.handlePassword.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
-        this.handleUserType = this.handleUserType.bind(this);
+        this.handleCompanyName = this.handleCompanyName.bind(this);
         this.handleSignup = this.handleSignup.bind(this);
     }
 
@@ -30,21 +29,19 @@ export default class SignupStudent extends React.Component {
         this.setState({email: e.target.value});
     }
 
-    handleUserType(e) {
-        this.setState({userType: e.target.value});
+    handleCompanyName(e) {
+        this.setState({companyName: e.target.value});
     }
 
     handleSignup(e) {
         e.preventDefault();
         const options = {
             username: this.state.username,
-            password: this.state.password,
             email: this.state.email,
-            userType: "Student"
+            password: this.state.password,
+            userType: "Startup"
         };
         this.props.handleSignup(options);
-
-
     }
     render() {
         return (
@@ -53,7 +50,7 @@ export default class SignupStudent extends React.Component {
                     <div className="row">
                         <div className="col-md-4"></div>
                         <div className="col-sm-4">
-                            <Input type="text" label="Name" placeholder="Please enter your name"
+                            <Input type="text" label="Company Name" placeholder="Please enter your company name"
                                    value={this.state.username} onChange={this.handleUserName} required/>
                         </div>
                     </div>
@@ -80,7 +77,7 @@ export default class SignupStudent extends React.Component {
                     <div className="row">
                         <div className="col-md-4"></div>
                         <div className="col-sm-4">
-                            <a href='/login' onClick={this.props.handleSwitch}>Already have an account? switch to login </a>
+                            <a href='/login'>Already have an account? switch to login </a>
                         </div>
                     </div>
                 </form>

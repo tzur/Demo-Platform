@@ -1,3 +1,14 @@
+import { Meteor } from 'meteor/meteor';
+import '../../../api/collections/userMethods';
+export function login(options, callback){
+    Meteor.loginWithPassword(options.email, options.password, (error)=>{
+        if (error){
+            callback(error)
+        }else{
+            callback(null);
+        }
+    })
+}
 
 export function signup(options, callback){
     console.log("sdsss12");
@@ -32,6 +43,15 @@ export function signup(options, callback){
                     }
                 }
             });
+        }
+    })
+}
+export function meteorLogout(callback){
+    Meteor.logout((error)=>{
+        if (error){
+            callback(error)
+        }else{
+            callback(null);
         }
     })
 }
