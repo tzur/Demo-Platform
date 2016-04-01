@@ -4,3 +4,9 @@
 #submitBtn{
     width:100%;
 }
+.cardText{
+    font-style: italic;
+}
+.cardTitle{
+    color: #857594;
+}

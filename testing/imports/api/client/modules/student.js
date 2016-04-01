@@ -6,7 +6,7 @@ export function apply(position,applyText, callback){
         if (err){
             callback(err)
         }else{
-            Meteor.call('addStudentToPosition',position._id,(err,result)=>{
+            Meteor.call('addStudentToPosition',position._id,applyText,(err,result)=>{
                 if (err){
                     callback(err)
                 }else{

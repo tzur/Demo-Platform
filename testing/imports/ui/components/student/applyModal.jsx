@@ -44,7 +44,7 @@ export default class ApplyModal extends React.Component{
         ];
         return(
             <div>
-                <RaisedButton label="Apply" onClick={this.handleOpen} />
+                <RaisedButton backgroundColor="#759DEF" label="Apply" onClick={this.handleOpen} />
                 <Dialog
                     title="Apply Form"
                     actions={actions}

@@ -26,7 +26,7 @@ Meteor.methods({
                 $addToSet: {appliedUsers: {
                     _id: Meteor.userId(),
                     username: Meteor.user().username,
-                    email: Meteor.user().email,
+                    email: Meteor.user().emails[0].address,
                     applyText: applyText
                 }}
             })

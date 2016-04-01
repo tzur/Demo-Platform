@@ -2,14 +2,19 @@ import React from 'react';
 import {Row, Col, Button, Input} from 'react-bootstrap';
 import { addPosition } from '../../../api/client/modules/position';
 import FlatButton from '../../../../node_modules/material-ui/lib/flat-button';
+import TextField from '../../../../node_modules/material-ui/lib/text-field';
+import RadioButton from '../../../../node_modules/material-ui/lib/radio-button';
+import RadioButtonGroup from '../../../../node_modules/material-ui/lib/radio-button-group';
+import {CONSTANTS} from '../../../api/client/modules/langauage';
 export default class PositionForm extends React.Component{
     constructor(props){
         super(props);
+
         this.state = {
             companyName: '',
             contactMail: '',
             jobTitle: '',
-            position: '',
+            position: 'fullTime',
             target: '',
             description: '',
             openForm: false
@@ -58,11 +63,20 @@ export default class PositionForm extends React.Component{
             if (err){
                 console.log(err)
             }else{
-                console.log("Success");
+                this.setState({
+                    companyName: '',
+                    contactMail: '',
+                    jobTitle: '',
+                    position: '',
+                    target: '',
+                    description: '',
+                    openForm: false
+                })
             }
         })
     }
     render(){
+        console.log("position form render");
         return(
             <div className="container">
                 <Row>
@@ -70,9 +84,13 @@ export default class PositionForm extends React.Component{
                     </Col>
                     <Col md={4} xs={4}>
                         {this.state.openForm?
-                            <FlatButton primary={true} onClick={this.closeForm}>OH!Sorry just wanted to check what will happen</FlatButton>
+                            <FlatButton primary={true}
+                                        onClick={this.closeForm}
+                                        label="OH!Sorry just wanted to check what will happen"/>
                             :
-                            <FlatButton primary={true} onClick={this.openForm}>Just figured out that you need another student?!</FlatButton>
+                            <FlatButton primary={true}
+                                        onClick={this.openForm}
+                                        label="Just figured out that you need another student?!"/>
                         }
                     </Col>
                 </Row>
@@ -82,26 +100,45 @@ export default class PositionForm extends React.Component{
                         <Col md={4} xs={4}>
                         </Col>
                         <Col md={4} xs={4}>
-                            <Input type="select" label="Position"  onChange={this.handlePosition}  required>
-                                <option value="">Please select</option>
-                                <option value="fullTime" >Full-Time</option>
-                                <option value="partialTime" >Partial-Time</option>
-                                <option value="limitedFullTime" >Limited Full-Time</option>
-                            </Input>
+                                <h4>Choose Position:</h4>
+                                <RadioButtonGroup name="position" onChange={this.handlePosition} defaultSelected="fullTime">
+                                    <RadioButton
+                                        value={CONSTANTS.FULL_TIME}
+                                        label="Full Time"
+                                    />
+                                    <RadioButton
+                                        value={CONSTANTS.PARTIAL_TIME}
+                                        label="Partial-Time"
+                                    />
+                                    <RadioButton
+                                        value={CONSTANTS.LIMITED_FULL_TIME}
+                                        label="Limited Full Time"
+                                    />
+                                </RadioButtonGroup>
+
                         </Col>
                     </Row>
                     <Row>
                         <Col md={4} xs={4}>
                         </Col>
                         <Col md={4} xs={4}>
-                            <Input type="text" label="Job Title" value={this.state.jobTitle} onChange={this.handleJobTitle} />
+                            <TextField hintText="Job Title"
+                                       floatingLabelText="Job Title"
+                                       value={this.state.jobTitle}
+                                       onChange={this.handleJobTitle} />
                         </Col>
                     </Row>
                     <Row>
                         <Col md={4} xs={4}>
                         </Col>
                         <Col md={4} xs={4}>
-                            <Input type="textarea" rows="6" cols="50" label="Job Description" value={this.state.description} onChange={this.handleDescription} />
+                            <TextField hintText="Job Description"
+                                       floatingLabelText="Job Description"
+                                       value={this.state.description}
+                                       multiLine={true}
+                                       rows={4}
+                                       fullWidth={true}
+                                       onChange={this.handleDescription} />
                         </Col>
                     </Row>
                     <Row>

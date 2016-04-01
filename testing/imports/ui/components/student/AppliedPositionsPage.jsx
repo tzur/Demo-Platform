@@ -10,7 +10,7 @@ export default class AppliedPositionsPage extends React.Component {
           if (this.props.user &&  this.props.user.positionArray){
              return this.props.user.positionArray.map((position)=>{
                   return(
-                      <PositionGenericCard key={position._id} position={position} />
+                      <PositionGenericCard key={position._id} position={position} applyText={position.applyText} />
                   )
               })
           }else{
