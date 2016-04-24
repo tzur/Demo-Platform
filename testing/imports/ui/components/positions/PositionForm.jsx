@@ -6,6 +6,7 @@ import TextField from '../../../../node_modules/material-ui/lib/text-field';
 import RadioButton from '../../../../node_modules/material-ui/lib/radio-button';
 import RadioButtonGroup from '../../../../node_modules/material-ui/lib/radio-button-group';
 import {CONSTANTS} from '../../../api/client/modules/langauage';
+import {PositionFormView} from '../positions/PositionFormView.jsx';
 export default class PositionForm extends React.Component{
     constructor(props){
         super(props);
@@ -64,11 +65,8 @@ export default class PositionForm extends React.Component{
                 console.log(err)
             }else{
                 this.setState({
-                    companyName: '',
-                    contactMail: '',
                     jobTitle: '',
                     position: '',
-                    target: '',
                     description: '',
                     openForm: false
                 })
@@ -95,60 +93,16 @@ export default class PositionForm extends React.Component{
                     </Col>
                 </Row>
                 {this.state.openForm?
-                <form>
-                    <Row>
-                        <Col md={4} xs={4}>
-                        </Col>
-                        <Col md={4} xs={4}>
-                                <h4>Choose Position:</h4>
-                                <RadioButtonGroup name="position" onChange={this.handlePosition} defaultSelected="fullTime">
-                                    <RadioButton
-                                        value={CONSTANTS.FULL_TIME}
-                                        label="Full Time"
-                                    />
-                                    <RadioButton
-                                        value={CONSTANTS.PARTIAL_TIME}
-                                        label="Partial-Time"
-                                    />
-                                    <RadioButton
-                                        value={CONSTANTS.LIMITED_FULL_TIME}
-                                        label="Limited Full Time"
-                                    />
-                                </RadioButtonGroup>
+                    <PositionFormView
+                        position={this.state.position}
+                        handlePosition={this.handlePosition}
+                        description={this.state.description}
+                        handleDescription={this.handleDescription}
+                        jobTitle={this.state.jobTitle}
+                        handleJobTitle={this.handleJobTitle}
+                        handleSubmit={this.handleSubmit}
+                    />
 
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={4} xs={4}>
-                        </Col>
-                        <Col md={4} xs={4}>
-                            <TextField hintText="Job Title"
-                                       floatingLabelText="Job Title"
-                                       value={this.state.jobTitle}
-                                       onChange={this.handleJobTitle} />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={4} xs={4}>
-                        </Col>
-                        <Col md={4} xs={4}>
-                            <TextField hintText="Job Description"
-                                       floatingLabelText="Job Description"
-                                       value={this.state.description}
-                                       multiLine={true}
-                                       rows={4}
-                                       fullWidth={true}
-                                       onChange={this.handleDescription} />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={4} xs={4}>
-                        </Col>
-                        <Col md={4} xs={4}>
-                            <Button id="submitBtn" bsStyle="primary" type="submit" onClick={this.handleSubmit}>Submit</Button>
-                        </Col>
-                    </Row>
-                </form>
                 : null}
             </div>
         )

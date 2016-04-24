@@ -35,7 +35,7 @@ export default class Student extends React.Component {
                 :
                 <ApplyModal  position={position} onSubmit={this.handleApply}/>
         )
-    };
+    }
     render(){
         return(
             <div>

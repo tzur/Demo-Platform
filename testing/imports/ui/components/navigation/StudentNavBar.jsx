@@ -9,23 +9,16 @@ export default class StudentNavBar extends React.Component {
     }
     render(){
         return(
-            <Navbar inverse>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="#" onClick={this.toAvailablePositions.bind(this)}>Tamid - Student</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse>
-                    <Nav>
-                        <NavItem eventKey={2} onClick={this.toAvailablePositions.bind(this)}>Available Positions</NavItem>
-                        <NavItem eventKey={1} onClick={this.toAppliedPositions.bind(this)}>Applied Positions</NavItem>
-                    </Nav>
-                    <Nav pullRight>
-                        <NavItem eventKey={1} onClick={this.props.logout}>logout</NavItem>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+            <header>
+                <h1 className="pull-left" href="#" onClick={this.toAvailablePositions.bind(this)}>Tamid - Student</h1>
+                <div className="pull-right">
+                    <a  onClick={this.toAvailablePositions.bind(this)}>Available Positions</a>
+                    |
+                    <a  onClick={this.toAppliedPositions.bind(this)}>Applied Positions</a>
+                    |
+                    <a  onClick={this.props.logout}>logout</a>
+                </div>
+            </header>
         )
     }
 };

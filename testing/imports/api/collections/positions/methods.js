@@ -34,5 +34,29 @@ Meteor.methods({
             throw err;
         }
         return true;
+    },
+    editPosition(newPosition){
+        try{
+            console.log("Editing position");
+            Positions.update({_id: newPosition._id}, {
+                $set:{
+                    jobTitle: newPosition.jobTitle,
+                    position: newPosition.position,
+                    description: newPosition.description
+                }
+            })
+        }catch(e){
+            throw e;
+        }
+        return true;
+    },
+    deletePosition(position){
+        try{
+            console.log("Deleting position");
+            Positions.remove({_id: position._id});
+        }catch(e){
+            throw e;
+        }
+        return true;
     }
 });

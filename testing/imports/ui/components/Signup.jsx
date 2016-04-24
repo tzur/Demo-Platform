@@ -15,8 +15,6 @@ export default class Signup extends React.Component {
         this.handleStartup = this.handleStartup.bind(this);
         this.handleSignup = this.handleSignup.bind(this);
     }
-
-
     handleStudent(){
         this.setState({startup: false, student: true})
     }

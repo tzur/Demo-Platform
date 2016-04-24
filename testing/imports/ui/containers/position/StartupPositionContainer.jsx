@@ -11,7 +11,11 @@ function composerFunction(props, onData){
     handle = Meteor.subscribe('startupPositions', companyId);
     if (handle.ready()){
         positions = Positions.find({companyId:  companyId}, {sort: {createdAt: -1}}).fetch();
-        onData(null, {positions: positions, appliedStudents: props.appliedStudents});
+        onData(null, {
+            positions: positions,
+            appliedStudents: props.appliedStudents,
+            cardActions: props.cardActions
+        });
     }
 }
 // Note the use of composeWithTracker

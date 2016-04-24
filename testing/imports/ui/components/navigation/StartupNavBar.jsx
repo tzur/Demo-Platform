@@ -13,19 +13,12 @@ export default class StartupNavBar extends React.Component {
     }
     render(){
         return(
-            <Navbar inverse>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="#" onClick={this.main.bind(this)}>Tamid - Startup</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse>
-                    <Nav pullRight>
-                        <NavItem eventKey={3} href="#" onClick={this.props.logout}>Logout</NavItem>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+            <header>
+                <h1 className="pull-left" href="#" onClick={this.main.bind(this)}>Tamid - Startup</h1>
+                <div className="pull-right">
+                    <a  href="#" onClick={this.props.logout}>logout</a>
+                </div>
+            </header>
         )
     }
 };

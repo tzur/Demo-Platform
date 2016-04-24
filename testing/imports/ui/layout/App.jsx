@@ -7,6 +7,7 @@ import StartupNavBar from '../components/navigation/StartupNavBar.jsx';
 import Student from '../components/student/Student.jsx';
 import Startup from '../components/startup/Startup.jsx';
 import {meteorLogout} from '../../api/client/modules/user';
+import { StickyContainer, Sticky } from 'react-sticky';
 export default class App extends React.Component{
     //componentWillMount(){
     //    if (!!this.props.user && !this.props.children){
@@ -47,10 +48,14 @@ export default class App extends React.Component{
             child = this.props.children;
         }
         return(
-            <div>
-                {this.props.userReady? this.getAuthNav() : <GuestNavBar /> }
+            <StickyContainer>
+                <Sticky>
+                    <header>
+                     {this.props.userReady? this.getAuthNav() : <GuestNavBar /> }
+                    </header>
+                </Sticky>
                 {child?  child : <h3 className="text-center">You're not logged in, please login.</h3>}
-            </div>
+            </StickyContainer>
         )
     }
 }

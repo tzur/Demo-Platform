@@ -12,20 +12,14 @@ export default class GuestNavBar extends React.Component {
     }
     render(){
         return(
-            <Navbar inverse>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="#" onClick={this.main.bind(this)}>Tamid</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse>
-                    <Nav pullRight>
-                        <NavItem eventKey={1} href="#" onClick={this.login.bind(this)}>Login</NavItem>
-                        <NavItem eventKey={2} href="#" onClick={this.signup.bind(this)}>Signup</NavItem>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+            <header>
+                <h1 className="pull-left" href="#" onClick={this.main.bind(this)}>Tamid</h1>
+                <div className="pull-right">
+                    <a href="#" onClick={this.login.bind(this)}>Login</a>
+                    |
+                    <a href="#" onClick={this.signup.bind(this)}>Signup</a>
+                </div>
+            </header>
         )
     }
 };

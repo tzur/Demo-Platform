@@ -17,8 +17,14 @@ export default class PositionLayout extends React.Component{
     render(){
         let positionCard;
         if (this.props.appliedStudents){
-            positionCard=(position)=>{return (<PositionGenericCard key={position._id} position={position}
-                                                    appliedStudents={this.props.appliedStudents.bind(this,position)}/>)}
+            if (this.props.cardActions){
+                positionCard=(position)=>{return (<PositionGenericCard key={position._id} position={position}
+                                                                       appliedStudents={this.props.appliedStudents.bind(this,position)}
+                                                                       cardActions={this.props.cardActions.bind(this,position)}/>)}
+            }else{
+                positionCard=(position)=>{return (<PositionGenericCard key={position._id} position={position}
+                                                                       appliedStudents={this.props.appliedStudents.bind(this,position)}/>)}
+            }
         }else if (this.props.cardActions){
 
             positionCard = (position)=>{return ( <PositionGenericCard key={position._id} position={position}
