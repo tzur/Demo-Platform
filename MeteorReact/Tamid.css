@@ -30,6 +30,11 @@ header {
     padding: 0 20px;
     text-align: center;
     color: #ffa700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
 }
 h1 {
     line-height: 80px;

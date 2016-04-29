@@ -2,9 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed08cd1-ecbb-45b5-87a7-8a3975cdf165" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tamid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tamid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tamid.css" afterPath="$PROJECT_DIR$/MeteorReact/Tamid.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tamid.html" afterPath="$PROJECT_DIR$/MeteorReact/Tamid.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/main.jsx" afterPath="$PROJECT_DIR$/MeteorReact/client/main.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/client/modules/langauage.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/client/modules/langauage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/client/modules/position.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/client/modules/position.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/client/modules/startup.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/client/modules/startup.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/client/modules/student.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/client/modules/student.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/client/modules/user.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/client/modules/user.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/collectionStartup/collectionStartup.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/collectionStartup/collectionStartup.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/collectionStartup/methods.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/collectionStartup/methods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/collectionStartup/server/publications.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/collectionStartup/server/publications.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/positions/Positions.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/positions/Positions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/positions/methods.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/positions/methods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/positions/server/publications.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/positions/server/publications.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/students/Students.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/students/Students.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/students/methods.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/students/methods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/students/server/publications.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/students/server/publications.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/api/collections/userMethods.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/api/collections/userMethods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/routes/routes.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/routes/routes.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/startup.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/startup.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/startup/client/capitalize.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/startup/client/capitalize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/startup/server/fixtures.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/startup/server/fixtures.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/startup/server/index.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/startup/server/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/startup/server/register-api.js" afterPath="$PROJECT_DIR$/MeteorReact/imports/startup/server/register-api.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/Login.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/Login.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/Signup.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/Signup.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/navigation/GuestNavBar.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/navigation/GuestNavBar.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/navigation/StartupNavBar.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/navigation/StartupNavBar.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/navigation/StudentNavBar.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/navigation/StudentNavBar.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/positions/PositionForm.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionForm.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/positions/PositionFormView.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionFormView.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/positions/PositionGenericCard.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionGenericCard.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/positions/PositionLayout.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionLayout.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/positions/StudentPositionCard.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/StudentPositionCard.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/startup/EditModal.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/EditModal.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/startup/SignupStartup.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/SignupStartup.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/startup/Startup.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/Startup.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/startup/StartupPositions.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/StartupPositions.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/student/AppliedPositionsPage.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/student/AppliedPositionsPage.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/student/ApplyModal.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/student/ApplyModal.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/student/SignupStudent.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/student/SignupStudent.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/student/Student.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/student/Student.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/components/student/StudentCard.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/components/student/StudentCard.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/containers/authContainer.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/containers/authContainer.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/containers/position/AllPositionsContainer.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/containers/position/AllPositionsContainer.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/containers/position/StartupPositionContainer.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/containers/position/StartupPositionContainer.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/containers/position/UserPositionContainer.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/containers/position/UserPositionContainer.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/containers/startup/StartupContainer.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/containers/startup/StartupContainer.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/containers/student/StudentContainer.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/containers/student/StudentContainer.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imports/ui/layout/App.jsx" afterPath="$PROJECT_DIR$/MeteorReact/imports/ui/layout/App.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/MeteorReact/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/main.js" afterPath="$PROJECT_DIR$/MeteorReact/server/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TamidReact222.iml" afterPath="$PROJECT_DIR$/.idea/TamidReact222.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TamidReact222.iws" />
@@ -26,91 +76,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/layout/App.jsx">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/layout/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7326389">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MeteorReact/imports/startup/server/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tamid.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tamid.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/student/Student.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.774194">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplyModal.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/student/ApplyModal.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PositionForm.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/positions/PositionForm.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Tamid.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tamid.css">
+        <entry file="file://$PROJECT_DIR$/MeteorReact/Tamid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.903226">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Startup.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/startup/Startup.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state vertical-scroll-proportion="-11.4838705">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -131,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/students/Students.js" />
-        <option value="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/collectionStartup.js" />
         <option value="$PROJECT_DIR$/testing/imports/api/collections/positions/Positions.js" />
         <option value="$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx" />
         <option value="$PROJECT_DIR$/testing/imports/api/client/modules/startup.js" />
@@ -182,6 +170,8 @@
         <option value="$PROJECT_DIR$/imports/ui/components/student/Student.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/positions/PositionForm.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/startup/Startup.jsx" />
+        <option value="$PROJECT_DIR$/MeteorReact/Tamid.css" />
+        <option value="$PROJECT_DIR$/MeteorReact/imports/ui/layout/App.jsx" />
       </list>
     </option>
   </component>
@@ -191,7 +181,7 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true">
-    <package-json value="$PROJECT_DIR$/package.json" />
+    <package-json value="$PROJECT_DIR$/MeteorReact/package.json" />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -245,6 +235,10 @@
               <option name="myItemId" value="TamidReact222" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MeteorReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -269,11 +263,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\MeteorReact" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\imports\ui\components\student" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\imports\ui\components\startup" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222" />
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\ui\components\startup" />
-      <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222\testing\imports\ui\components\student" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ZurTene\WebstormProjects\TamidReact222" />
@@ -340,7 +334,7 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="meteor-app-runner" factoryName="Meteor" workingDirectory="$PROJECT_DIR$/">
+    <configuration default="false" name="Unnamed" type="meteor-app-runner" factoryName="Meteor" workingDirectory="$PROJECT_DIR$/MeteorReact">
       <option name="exePath" value="$USER_HOME$/AppData/Local/.meteor/meteor.bat" />
       <option name="startBrowserSettings">
         <browser url="http://localhost:3000" />
@@ -371,16 +365,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19968304" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3141892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.313416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2894144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2897407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -441,217 +435,196 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/material-ui/lib/card/card-text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/collections/students/Students.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25496688">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/collections/collectionStartup/collectionStartup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/collections/collectionStartup/methods.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/collections/collectionStartup/methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/material-ui/src/svg-icons/maps/local-post-office.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/node_modules/material-ui/src/svg-icons/maps/local-post-office.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16603774">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/containers/position/UserPositionContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/containers/position/UserPositionContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93333334">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/student/SignupStudent.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/student/SignupStudent.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044444446">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/routes/routes.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/routes/routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8080808">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/containers/authContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/containers/authContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85252523">
           <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/positions/StudentPositionCard.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/StudentPositionCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5518395">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/containers/position/AllPositionsContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/containers/position/AllPositionsContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/student/AppliedPositionsPage.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/student/AppliedPositionsPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/client/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/startup/client/capitalize.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/startup/client/capitalize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/client/modules/startup.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/client/modules/startup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/student/StudentCard.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/student/StudentCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91973245">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/collections/students/methods.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/collections/students/methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91973245">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/client/modules/student.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/client/modules/student.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29579833">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/startup.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/startup.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/client/modules/langauage.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/client/modules/langauage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44369748">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/startup/SignupStartup.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/SignupStartup.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/material-ui/lib/svg-icons/editor/mode-edit.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/node_modules/material-ui/lib/svg-icons/editor/mode-edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/positions/PositionGenericCard.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionGenericCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/containers/position/StartupPositionContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/containers/position/StartupPositionContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/startup/StartupPositions.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/StartupPositions.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/positions/PositionLayout.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionLayout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/collections/positions/Positions.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/collections/positions/Positions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35555556">
           <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/Signup.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/Signup.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6111111">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/collections/positions/methods.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/collections/positions/methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5798611">
           <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/client/modules/position.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/client/modules/position.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15972222">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/startup/EditModal.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/EditModal.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.038194444">
           <caret line="66" column="84" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="84" />
@@ -659,14 +632,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/client/modules/user.js">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/api/client/modules/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.038194444">
           <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/positions/PositionFormView.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionFormView.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5798611">
           <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
@@ -674,7 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/Login.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/Login.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
@@ -682,7 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/StartupNavBar.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/navigation/StartupNavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
@@ -690,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/GuestNavBar.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/navigation/GuestNavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="50" />
@@ -698,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/StudentNavBar.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/navigation/StudentNavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
@@ -706,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/.id">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/.meteor/.id">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -714,7 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/server/.bundle_version.txt">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/.meteor/local/build/server/.bundle_version.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036789298">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -722,7 +695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/README">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/.meteor/local/build/README">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -730,7 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/db/METEOR-PORT">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/.meteor/local/db/METEOR-PORT">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -738,7 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/student/ApplyModal.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/student/ApplyModal.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
@@ -746,7 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/student/Student.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/student/Student.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
@@ -754,7 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/positions/PositionForm.jsx">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/positions/PositionForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
@@ -762,31 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/startup/Startup.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/layout/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tamid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.774194">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
@@ -794,18 +743,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tamid.css">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.903226">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state vertical-scroll-proportion="-1.2941177">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/MeteorReact/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/startup/server/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/startup/server/register-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22916667">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/Tamid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/components/startup/Startup.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19097222">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/startup/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/Tamid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.4838705">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeteorReact/imports/ui/layout/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7326389">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding />
         </state>
       </provider>

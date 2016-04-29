@@ -48,14 +48,14 @@ export default class App extends React.Component{
             child = this.props.children;
         }
         return(
-            <StickyContainer>
-                <Sticky>
+            <div>
+                <div>
                     <header>
                      {this.props.userReady? this.getAuthNav() : <GuestNavBar /> }
                     </header>
-                </Sticky>
+                </div>
                 {child?  child : <h3 className="text-center">You're not logged in, please login.</h3>}
-            </StickyContainer>
+            </div>
         )
     }
 }
