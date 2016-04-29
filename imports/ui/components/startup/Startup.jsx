@@ -1,7 +1,7 @@
 import React from 'react';
 import PositionForm from '../positions/PositionForm.jsx';
 import StartupPositionsContainer from '../../containers/position/StartupPositionContainer.jsx';
-import FlatButton from 'material-ui/lib/flat-button';
+import FlatButton from '../../../../node_modules/material-ui/lib/flat-button';
 import StudentCard from '../student/StudentCard.jsx';
 import EditModal from '../startup/EditModal.jsx';
 import {editPosition, deletePosition} from '../../../api/client/modules/position';
