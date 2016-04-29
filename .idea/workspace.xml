@@ -2,110 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed08cd1-ecbb-45b5-87a7-8a3975cdf165" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/client/modules/langauage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/client/modules/position.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/client/modules/startup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/client/modules/student.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/client/modules/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/collectionStartup/collectionStartup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/collectionStartup/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/collectionStartup/server/publications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/positions/Positions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/positions/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/positions/server/publications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/students/Students.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/students/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/students/server/publications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/api/collections/userMethods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/routes/routes.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/client/capitalize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/fixtures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/server/register-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/Login.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/Signup.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/navigation/GuestNavBar.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/navigation/StartupNavBar.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/navigation/StudentNavBar.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/positions/PositionForm.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/positions/PositionFormView.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/positions/PositionGenericCard.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/positions/PositionLayout.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/positions/StudentPositionCard.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/startup/EditModal.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/startup/SignupStartup.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/startup/Startup.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/startup/StartupPositions.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/student/AppliedPositionsPage.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/student/ApplyModal.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/student/SignupStudent.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/student/Student.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/student/StudentCard.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/containers/authContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/containers/position/AllPositionsContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/containers/position/StartupPositionContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/containers/position/UserPositionContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/containers/startup/StartupContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/containers/student/StudentContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/layout/App.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/client/main.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/hello.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/hello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/modules/langauage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/modules/position.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/modules/startup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/modules/student.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/client/modules/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/collectionStartup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/collectionStartup/server/publications.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/positions/Positions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/positions/methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/positions/server/publications.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/students/Students.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/students/methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/students/server/publications.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/api/collections/userMethods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/routes/routes.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/startup.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/startup/client/capitalize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/startup/server/fixtures.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/startup/server/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/startup/server/register-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Login.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/Signup.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/navigation/GuestNavBar.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/navigation/StartupNavBar.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/navigation/StudentNavBar.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionForm.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionFormView.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionGenericCard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/PositionLayout.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/positions/StudentPositionCard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/EditModal.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/SignupStartup.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/Startup.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/startup/StartupPositions.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/student/AppliedPositionsPage.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/student/SignupStudent.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/student/Student.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/student/StudentCard.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/components/student/applyModal.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/authContainer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/position/AllPositionsContainer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/position/StartupPositionContainer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/position/UserPositionContainer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/startup/StartupContainer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/containers/student/StudentContainer.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/imports/ui/layout/App.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/server/main.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TamidReact222.iml" afterPath="$PROJECT_DIR$/.idea/TamidReact222.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TamidReact222.iws" />
@@ -127,50 +23,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/layout/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3888889">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuestNavBar.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/GuestNavBar.jsx">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="50" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartupNavBar.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/StartupNavBar.jsx">
+      <file leaf-file-name="hello.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentNavBar.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/StudentNavBar.jsx">
+      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".id" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.meteor/.id">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -212,6 +98,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70546734">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -357,160 +253,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="student" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TamidReact222" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="positions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -642,9 +384,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3141892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2894144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2894144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -705,27 +447,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imports/startup/server/register-api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/startup/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/startup/server/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/material-ui/lib/card/card-text.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -975,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/components/navigation/StartupNavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1073,8 +786,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/layout/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3888889">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70546734">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding />
         </state>
       </provider>
