@@ -19,7 +19,7 @@ html, body {
 body {
     font-size: 18px;
     font-family: 'Lato', helvetica, sans-serif;
-    background: linear-gradient(#ffb718, #e97200)
+    background: linear-gradient(#b4cbd9, #d0d2e9)
 }
 
 header {
@@ -45,4 +45,7 @@ h1 {
 .sticky{
     width:100% !important;
     z-index: 2;
+}
+.childSeparator{
+    margin-top: 100px;
 }

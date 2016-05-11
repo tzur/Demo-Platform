@@ -54,7 +54,9 @@ export default class App extends React.Component{
                      {this.props.userReady? this.getAuthNav() : <GuestNavBar /> }
                     </header>
                 </div>
-                {child?  child : <h3 className="text-center">You're not logged in, please login.</h3>}
+                <div className="childSeparator">
+                    {child?  child : <h3 className="text-center">You're not logged in, please login.</h3>}
+                </div>
             </div>
         )
     }

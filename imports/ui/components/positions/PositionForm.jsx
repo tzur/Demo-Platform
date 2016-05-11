@@ -10,7 +10,6 @@ import {PositionFormView} from '../positions/PositionFormView.jsx';
 export default class PositionForm extends React.Component{
     constructor(props){
         super(props);
-
         this.state = {
             companyName: '',
             contactMail: '',

@@ -4,7 +4,6 @@ import {ButtonInput} from 'react-bootstrap';
 import {Alert} from 'react-bootstrap';
 import {login} from '../../api/client/modules/user';
 
-
 export default class Login extends React.Component {
     constructor(props) {
         super(props);
@@ -13,7 +12,6 @@ export default class Login extends React.Component {
             password: '',
             wrongAuth: false
         };
-
         this.handlePassword = this.handlePassword.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
         this.handleLogin = this.handleLogin.bind(this);
