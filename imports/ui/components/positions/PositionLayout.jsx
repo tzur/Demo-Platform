@@ -4,11 +4,11 @@ import {PositionGenericCard} from '../positions/PositionGenericCard.jsx';
 import StudentPositionCard from '../positions/StudentPositionCard.jsx';
 
 
+//TODO: Divide it to separate components, it looks like hell.
 
 export default class PositionLayout extends React.Component{
     constructor(props){
         super(props);
-        console.log("start up positions");
     }
 
     handleApply(position, apply){
@@ -46,5 +46,3 @@ export default class PositionLayout extends React.Component{
     }
 }
 PositionLayout.PropTypes = {positions: React.PropTypes.object, handleApply: React.PropTypes.func};
-
-//TODO maybe divide it to separate components idk.

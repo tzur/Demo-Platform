@@ -25,9 +25,6 @@ export const renderRoutes = () => (
         <Route path="/" component={AuthContainer}>
             <Route path="login" component={Login}/>
             <Route path="signup" component={Signup}/>
-            <Route path="startups/:id" component={StartupContainer}>
-                <Route path="positions" component={StartupPositionContainer}/>
-            </Route>
             <Route path="appliedPositions" component={AppliedPositionsPage}/>
             <Route path="*"  onEnter={redirectUser}/>
         </Route>

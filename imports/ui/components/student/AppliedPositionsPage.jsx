@@ -16,14 +16,13 @@ export default class AppliedPositionsPage extends React.Component {
           }else{
               return(
                   <div>
-                      <h4>You havn't applied to any position yet!</h4>
+                      <h4 className="text-center">You havn't applied to any position yet!</h4>
                   </div>
               )
           }
         };
         return (
            <div>
-               <h4>Your Applied Positions:</h4>
                {getPositions()}
            </div>
         )
