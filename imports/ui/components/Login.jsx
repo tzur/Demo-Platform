@@ -39,7 +39,6 @@ export default class Login extends React.Component {
             }
         })
     }
-
     render() {
         return (
             <div className="container">
@@ -84,7 +83,6 @@ export default class Login extends React.Component {
                         </div>
                     </form>
             </div>
-
         )
     }
 }

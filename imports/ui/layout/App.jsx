@@ -47,6 +47,16 @@ export default class App extends React.Component{
         }else{
             child = this.props.children;
         }
+        if (!child){
+            if (this.props.emptyLogin){
+                console.log("EMPTY LOGIN ");
+                child =  <h3 className="text-center">You're not logged in, please login.</h3>
+            }else{
+                console.log("LOADING DATA...");
+                child =  <h3 className="text-center">Loading your data...</h3>
+            }
+        }
+        console.log("sdf");
         return(
             <div>
                 <div>
@@ -55,7 +65,7 @@ export default class App extends React.Component{
                     </header>
                 </div>
                 <div className="childSeparator">
-                    {child?  child : <h3 className="text-center">You're not logged in, please login.</h3>}
+                    {child}
                 </div>
             </div>
         )

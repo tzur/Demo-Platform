@@ -28,8 +28,10 @@ function composerFunction(props, onData){
             onData(null, {userReady: true, user: startupStudentUser, studentType: studentType})
         }
 
+    }else if (user === null){
+        onData(null, {userReady: false, emptyLogin: true});
     }else{
-        onData(null, {userReady: false});
+        onData(null, {userReady: false})
     }
 
 

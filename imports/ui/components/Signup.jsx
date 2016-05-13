@@ -3,13 +3,16 @@ import {ButtonInput, Button, Input} from 'react-bootstrap';
 import {signup} from '../../api/client/modules/user';
 import SignupStudent from '../components/student/SignupStudent.jsx';
 import SignupStartup from '../components/startup/SignupStartup.jsx';
+import {Alert} from 'react-bootstrap';
 import {Meteor} from 'meteor/meteor';
 export default class Signup extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             student: false,
-            startup: false
+            startup: false,
+            wrongAuth: false,
+            errReason: ""
         };
         this.handleStudent = this.handleStudent.bind(this);
         this.handleStartup = this.handleStartup.bind(this);
@@ -30,6 +33,7 @@ export default class Signup extends React.Component {
         }, (err,result)=>{
             if (err){
                 console.log(err);
+                this.setState({errReason: err.reason, wrongAuth: true})
             }else{
                 console.log("SDfdsf");
                 Meteor.loginWithPassword(options.email, options.password, (error)=>{
@@ -50,7 +54,10 @@ export default class Signup extends React.Component {
                     <Button bsStyle="primary" className="signupBtn" onClick={this.handleStudent}>Student</Button>
                     <Button bsStyle="primary" className="signupBtn" onClick={this.handleStartup}>Startup</Button>
                 </div>
-
+                {this.state.wrongAuth ?
+                    <Alert bsStyle="warning">
+                        <strong>Wrong Signup details! {this.state.errReason}</strong>
+                    </Alert> : null }
                 {this.state.student? <SignupStudent handleSignup={this.handleSignup}/>: null}
                 {this.state.startup? <SignupStartup handleSignup={this.handleSignup} />: null}
             </div>

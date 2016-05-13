@@ -14,7 +14,7 @@ Meteor.methods({
                 description: position.description
             });
         }catch(e){
-            return e;
+            throw e;
         }
         return positionId;
     },
